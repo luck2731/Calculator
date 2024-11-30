@@ -18,7 +18,6 @@ export const numericButtons = [
   { label: ".", value: "." },
   { label: "=", value: "Equal" },
   { label: "+", value: "+" },
-  // { label: "Clear", value: "" },
 ];
 
 export const alphabeticButtons = [
@@ -41,7 +40,6 @@ export const alphabeticButtons = [
   { label: "j", value: "j" },
   { label: "k", value: "k" },
   { label: "l", value: "l" },
-  // { label: "θ", value: "θ" },
   { label: "z", value: "z" },
   { label: "x", value: "x" },
   { label: "c", value: "c" },
@@ -49,17 +47,6 @@ export const alphabeticButtons = [
   { label: "b", value: "b" },
   { label: "n", value: "n" },
   { label: "m", value: "m" },
-  // { label: "Shift", value: "Shift" },
-  // { label: "123", value: "123" },
-  // { label: "aᵦ", value: "aᵦ" },
-  // { label: "!", value: "!" },
-  // { label: "%", value: "%" },
-  // { label: "[", value: "[" },
-  // { label: "]", value: "]" },
-  // { label: "{", value: "{" },
-  // { label: "}", value: "}" },
-  // { label: "~", value: "~" },
-  // { label: ",", value: "," },
   { label: "Backspace", value: "Backspace", icon: BackspaceIcon },
   { label: "Enter", value: "Enter" },
   { label: "Shift", value: "Shift", icon: ShiftIcon },

@@ -1,9 +1,4 @@
-// src/App.tsx
 import React, { useState, useEffect } from "react";
-// import FormulaInput from "./components/FormulaInput";
-// import VariableInputs from "./components/VariableInputs";
-// import ResultDisplay from "./components/ResultDisplay";
-// import { evaluateFormula } from "./utils/evaluateFormula";
 import Calculator from "./components/Calculator";
 import "./App.css";
 import Slider from "./components/Slider";
@@ -121,12 +116,6 @@ const App: React.FC = () => {
         handleButtonClick={handleButtonClick}
         isShiftActive={isShiftActive}
       />
-      {/* <FormulaInput onFormulaChange={handleFormulaChange} />
-      <VariableInputs
-        variables={variables}
-        onVariableChange={handleVariableChange}
-      />
-      <ResultDisplay result={result} /> */}
     </div>
   );
 };
