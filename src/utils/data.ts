@@ -18,6 +18,7 @@ export const numericButtons = [
   { label: ".", value: "." },
   { label: "=", value: "Equal" },
   { label: "+", value: "+" },
+  { label: "^", value: "^" },
 ];
 
 export const alphabeticButtons = [
@@ -48,6 +49,5 @@ export const alphabeticButtons = [
   { label: "n", value: "n" },
   { label: "m", value: "m" },
   { label: "Backspace", value: "Backspace", icon: BackspaceIcon },
-  { label: "Enter", value: "Enter" },
   { label: "Shift", value: "Shift", icon: ShiftIcon },
 ];
