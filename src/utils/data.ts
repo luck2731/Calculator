@@ -16,7 +16,7 @@ export const numericButtons = [
   { label: "−", value: "-" },
   { label: "0", value: "0" },
   { label: ".", value: "." },
-  { label: "=", value: "=" },
+  { label: "=", value: "Equal" },
   { label: "+", value: "+" },
   // { label: "Clear", value: "" },
 ];

@@ -38,6 +38,8 @@ const App: React.FC = () => {
         setAddSlider([...addSlider, value]);
       }
       setExpression((prev) => prev + value);
+    } else if (value === "Equal" || value === "EQUAL") {
+      handleEvaluate();
     } else {
       setExpression((prev) => prev + value);
     }
@@ -96,7 +98,8 @@ const App: React.FC = () => {
               <div
                 key={index}
                 className="add-slider-item"
-                onClick={() => handleSliderValueClick(sliderValue)}>
+                onClick={() => handleSliderValueClick(sliderValue)}
+              >
                 <span>{sliderValue}</span>
                 {visibleSliders.has(sliderValue) && (
                   <Slider

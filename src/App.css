@@ -173,7 +173,7 @@ button {
 
 .sidebar {
   height: 99%;
-  width: 25rem;
+  width: 20rem;
   overflow-y: auto;
   border: 1px solid #ccc;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
