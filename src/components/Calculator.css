@@ -7,8 +7,7 @@
 }
 
 .toggle-calculator {
-    width: 150px;
-    height: 5rem;
+    height: 3rem;
     position: absolute;
     left: 5px;
     bottom: 0;
@@ -60,7 +59,7 @@
 
 .keypad button {
     padding: 4px;
-    width: 5rem;
+    width: 4rem;
     height: 3rem;
     border: 1px solid transparent;
     border-radius: 4px;
