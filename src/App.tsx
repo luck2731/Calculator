@@ -65,11 +65,9 @@ const App: React.FC = () => {
   }, [expression]);
 
   const handleSliderValueClick = (value: string) => {
-    // console.log("visibleSliders", value);
     setVisibleSliders((prev) => {
       const newSet = new Set(prev);
       newSet.add(value);
-      console.log("newSet", newSet);
       return newSet;
     });
   };
@@ -88,7 +86,7 @@ const App: React.FC = () => {
         </div>
         {addSlider.length > 0 && (
           <div className="add-slider">
-            add slider:
+            Add Slider:
             {addSlider.map((sliderValue, index) => (
               <div
                 key={index}
