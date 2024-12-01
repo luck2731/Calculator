@@ -1,0 +1,139 @@
+.keyboard {
+  position: fixed;
+  bottom: -300px;
+  left: 0;
+  right: 0;
+  background: #f8f9fa;
+  padding: 10px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  border-top: 1px solid #dee2e6;
+}
+
+.keyboard.visible {
+  transform: translateY(-300px);
+}
+
+.keyboard-handle {
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.handle-bar {
+  width: 40px;
+  height: 4px;
+  background: #dee2e6;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+.keyboard-content {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+  background: #e9ecef;
+  border-radius: 8px;
+}
+
+.keyboard-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.keyboard-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.keyboard-key {
+  height: 45px;
+  min-width: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #333;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.letter-key {
+  text-transform: uppercase;
+  font-weight: 500;
+  background: white;
+}
+
+.number-key {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.operator-key {
+  background: #e3f2fd;
+  color: #1a73e8;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.key-wide {
+  background: #ffebee;
+  color: #d32f2f;
+  width: 100%;
+}
+
+.keyboard-key:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.letter-key:hover {
+  background: #f8f9fa;
+}
+
+.number-key:hover {
+  background: #f1f3f5;
+}
+
+.operator-key:hover {
+  background: #bbdefb;
+}
+
+.key-wide:hover {
+  background: #ffcdd2;
+}
+
+@media (max-width: 768px) {
+  .keyboard-key {
+    height: 40px;
+    min-width: 32px;
+    font-size: 14px;
+  }
+
+  .keyboard-content {
+    gap: 8px;
+    padding: 6px;
+  }
+
+  .keyboard-row {
+    gap: 4px;
+  }
+}
